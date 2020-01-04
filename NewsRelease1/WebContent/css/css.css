@@ -1,0 +1,32 @@
+tbody tr td{
+    height: 28px;
+    line-height: 28px !important;
+    padding: 0 15px !important; 
+    position: relative !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    box-sizing: border-box !important;
+    }
+    thead tr th{
+    height: 28px;
+    line-height: 28px !important;
+    padding: 0 15px !important;
+    position: relative !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    box-sizing: border-box !important;
+    } 
+    .demoTable{
+    margin-left: 20px;
+    margin-top: 5px;
+    }
+    .demoTable input{ height: 30px;}
+    .demoTable button{ height: 30px;line-height:30px;}
+   
+   .mui-ellipsis-3 {   display: -webkit-box; 
+     overflow: hidden;   white-space: normal!important; 
+       text-overflow: ellipsis;  
+    word-wrap: break-word;   -webkit-line-clamp: 1; 
+      -webkit-box-orient: vertical;}
